@@ -1,0 +1,115 @@
+/* Общие стили */
+.logo {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NiIgaGVpZ2h0PSI1OSIgdmlld0JveD0iMCAwIDQ2IDU5IiB2ZXJzaW9uPSIxLjEiPjx0aXRsZT4wNDgtLSBCb2x0IC0gPC90aXRsZT48ZGVzYz48ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgd2lkdGg9IjIyIiBoZWlnaHQ9IjE4Ii8+PHBhdGggZD0iTTEyLDE2IEwgMzQsMTYgIEwzNCwyeCAtMy40NzctLjI3MyAxOC44NzctLjI3MyAzNC44NzQ3NDcxIDMuNzczODM5NDMiIEMzMi45NzI4NDEyLjQ3OTcxIDEyLjQ5MDMyOS4zNzQ3NDcxIDEyLjg2MiAzMi4wIEwxNCwxMiAxMiwxNiBMNSw4LjgzNiA3Ljg0NyA3Ljc1IDIyLDE2IEwgMjYuNDczLDE2IDI2LjQ3NiAyMy4xNjIgMjYuNjY4IDkuMzAyIDE0LDMgMTQuMTQgMTQuMDcgMTAuNzUgMTQuMDcgMTAuNzUgMTQuMDAgMjIuNjIgMjQuMzkyIDMyLjIzOSAzMi40MzEgMzIuODQ4IDE0LjEzOCAyOS4yNDUgMTYsMTQuMTMgMTQsMTMuODYgMTQsMjMuMzUgMTMuODYgMTEsOC43MjE1IDE0LDEwOC4wMDAgOC4yNDc1IDE0LDEwOC4wIDguNzQ0MzE1IDIyLjYyNiAzMi4yNiAzMi44NDggMjkuNzIzIDEzLjY5MzcgMzUuMDkzIDkuMDgyNCA1LjA5IDAuMDkzIDMuOTIyIDIuODI4IDUuMDkgMi41ODkgNi4yMDggMS4xNzIgNS4wOSAxNC45ODggMy44MjYgMy4wMzcgNi44MzggOC4wMTkgMTIuNDc4IDcuMzg0IDguNzg5IDEzLjkyNCAxMi41IDExLjc1IDE0LjAgMTEuMTcxIDMuNDQ3MTUgMzIuMzAyIDEzLjgxOTMgMjQuNzUgMTQuOTEyLjAwMDI2NzE1MywyLjQyNDQxMSAxNC45NDQxNzU3MzMgNC44NDgsMC0uNDQ3NzE1IDIuNTU5MzIzMDAwMDAwMDc1MjI4NDM1Mjg5LTUuNjA3NzUyMDAxMDk5OTY2NWMxMy44NzExNjUzIDI5LjUyIDMzLjE4IDMyLjEyMSA1Ni4zNyAzMy4wMjU4NTMyMDAyMDc1IDI2LjkzMzMzMDMyNzE0NjA4IDMzLjAyNTg1MjIyMzE4MDY1MyAzMy44NDgxNzU5MjMyNCAzMy45MDY0MTk2MDg3NzUgMzIuNDg1IDMzLjg3NDMzMjU0MzA3NjMxIDMyLjUyOTMzMDMgMzIuODQ4NDE3NDAxODc1IDMyLjg0ODE3NTU5MjMyNCAzMy4wMjU4Mzg3NzE1MzMgMzQuMjg1IDMzLjg3MyAzMCAzNC41MDg5IDM0LjAzMTQgMzQuNTEyIDMzLjAzMTQgMzQuODc0IDMzLjA2NTMzMDM2MDgxNzMgMzMuMDE2MDIyMTIyNDY5NjYyMiAzMi41MzI1ODMzIDMzLjAyNTg1MjIyMzE4MDY1MyAzMy4wMzExNzQwMjc2MjMyNCAzM2M1LjEwMDMwODI1NTM5NzY5IDMuMDUyMjg0NzIwMzY3MTYgMTIuOTk1MzI1ODU5MDczIDQuMjYyMjI4OC0yLjgyOC0yLjczOC0uNjU4Mjg4NTc3MzM4MzkyLTIuOTU3ODA5NzczNDEtMy44Mjc2NzQgMzIuMjM1IDMuOTIzIDMzLjEwMzAyMSAzNC44NzYgMzMuMDI5MjI4MjEzNzM0IDMzLjA1ODUzMjggMzIuMTEyMjkyODAgMzMuMDU4MzUzMTQ1MjMgMzIuNDIyNTY3MjI4IDMzLjAxNTg1MjM3NSAzMi4yODQ1M');
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto; /* Это перемещает футер в конец страницы */
+}
+.txt1{
+    display: flex;
+   
+}
+.logo{
+   
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+/* Адаптивные стили */
+@media (min-width: 600px) {
+    .buttons {
+        justify-content: space-around;
+    }
+}
